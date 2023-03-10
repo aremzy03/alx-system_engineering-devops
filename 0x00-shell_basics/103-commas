@@ -1,2 +1,2 @@
 #!/bin/bash
-printf "$(ls -a -d -v -m)\n"
+printf "$(ls -a -F -m)\n"
