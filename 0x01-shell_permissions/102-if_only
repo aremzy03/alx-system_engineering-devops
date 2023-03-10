@@ -1,2 +1,2 @@
 #!/bin/bash
-stat-c "%u" chown betty hello
+chown --reference=guillaume betty hello
