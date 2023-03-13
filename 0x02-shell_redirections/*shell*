@@ -1,0 +1,9 @@
+# cat iacta
+this line should not be copied
+this should be copied# tail -1 iacta
+this should be copied# ./9-duplicate_last_line
+cp: missing file operand
+Try 'cp --help' for more information.
+# cat iacta
+this line should not be copied
+this should be copiedthis should be copied# 
