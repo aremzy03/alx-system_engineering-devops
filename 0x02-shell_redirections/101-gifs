@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1  -name "*.gif" -printf "%d\n" | rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f
+find . -maxdepth 1  -name "*.gif" -printf "%d\n"| rev | cut -d '.' -f2- | rev | LC_ALL=C sort -f
